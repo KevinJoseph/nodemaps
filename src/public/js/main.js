@@ -2,7 +2,7 @@ const map = L.map('map-template').setView([-12.333056000000001,-76.8147456000000
 
 const socket = io();
 
-const tileURL = 'https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png';
+const tileURL = 'https://a.tile.openstreetmap.org/{z}/{x}/{y}.png';
 
 L.tileLayer(tileURL).addTo(map);
 
